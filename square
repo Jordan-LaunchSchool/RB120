@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/jordan/launch_school/RB120/tic_tac_toe/tic_tac_toe.rb:101 TTTGame#human_moves:
+
+     [1;34m93[0m: [32mdef[0m [1;34mhuman_moves[0m
+     [1;34m94[0m: 	puts [31m[1;31m"[0m[31mChoose a square betweem 1-9: [1;31m"[0m[31m[0m
+     [1;34m95[0m: 	loop [32mdo[0m
+     [1;34m96[0m: 		square = gets.chomp.to_i
+     [1;34m97[0m: 		[32mbreak[0m [32mif[0m ([1;34m1[0m..[1;34m9[0m).include?(square)
+     [1;34m98[0m: 		puts [31m[1;31m"[0m[31mSorry, that's not a valid choice.[1;31m"[0m[31m[0m
+     [1;34m99[0m: 	[32mend[0m
+    [1;34m100[0m: 
+ => [1;34m101[0m: 	binding.pry
+    [1;34m102[0m: 	board.set_square_at(square, human.marker)
+    [1;34m103[0m: [32mend[0m
+
