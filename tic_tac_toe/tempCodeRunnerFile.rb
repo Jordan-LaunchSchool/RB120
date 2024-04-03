@@ -1,2 +1,2 @@
 
-		board.set_square_at(square, human.marker)
+		display_goodbye_message
